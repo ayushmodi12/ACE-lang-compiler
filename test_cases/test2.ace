@@ -1,0 +1,32 @@
+func num testing(num a){
+    if(a>1){
+        echo("Hello");
+    }
+    else_if(a>2){
+        echo("Hello 2");
+    }
+    else{
+        echo("Hello 3");
+    }
+    return 0;
+}
+
+func num main(){
+cook num a1=5;  
+cook num c=testing(a1);
+
+floop(cook num a=1; a < 5; a++){
+    continue;
+    echo(a);
+}
+cook str b= "Lexer";  
+cook num iter=5;
+wloop(iter>0){
+    echo(iter);
+    iter--;
+    break;
+}
+
+return 0;
+
+}

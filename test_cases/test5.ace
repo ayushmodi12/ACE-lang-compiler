@@ -1,0 +1,16 @@
+func num main(){
+    
+cook num dont_print_these = {2, 4, 6, 8, 0} ;
+
+cook flag f1 = false;
+cook flag f2 = true;
+
+floop(cook num a=0; a < len(dont_print_these); a++){
+    if (f1 && f2 == true){
+        echo(dont_print_these[a]);
+    }
+    cook flag temp =f1;
+    f1 = f2;
+    f2 = temp;
+    }
+}

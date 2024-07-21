@@ -1,0 +1,30 @@
+func str strval(num {} array,num k){
+    cook flag b=true;
+    cook str string="";
+    floop(cook num i=0;i<=len(array);i++){
+        if(array[i]%k==0 && arr[i]%2==0){
+            b=false;
+            break;
+        }
+    }
+    if(b){
+        string= "abx";
+    }
+    else(!b){
+        string="xba";
+    }
+    return string;
+}
+func num main(){
+    cook num arr={1,2,3};
+    cook str stt=strval(arr,len(arr));
+    cook flag fav=false;
+    if(stt=="xba"){
+        fav=true;
+    }
+    else{
+        fav=false;
+    }
+    echo(arr[1],stt,fav);
+    return 0;
+}

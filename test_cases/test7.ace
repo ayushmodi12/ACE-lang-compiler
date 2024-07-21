@@ -1,0 +1,57 @@
+func str strval(num {} array,num k){
+
+    cook flag b=true;
+    cook str string="";
+    floop(cook num i=0;i<=len(array);i++){
+        if(array[i]%k==0 && array[i]%2==0){
+            b=false;
+            break;
+        }
+    }
+    if(b){
+        string= "abx";
+    }
+    else{
+        string="xba";
+    }
+    return string;
+}
+
+
+
+
+func num main(){
+    cook char a1='a';
+    cook num arr={1,2,1};
+    cook str stt="ad";
+
+    cook flag fav=false;
+    if(stt=="xba"){
+        fav=true;
+    }
+    else{
+        fav=false;
+    }
+    echo(arr[1],stt,fav);
+    return 0;
+
+    cook flag isIt = false; 
+    cook flag err1 = !true; 
+    cook flag err2 = !isIt; 
+    cook flag err3 = (false || true);
+
+    cook num dont_print_these = {2, 4, 6, -8, 0} ;
+    cook num neg_number = -10;
+
+    if(a%2 == (1)){ 
+        isIt = true; 
+        }
+    
+    try{
+        cook num do_division =  100/0;
+    }
+    catch{
+        throw("Don't divide by 0 ! ");
+    }
+
+}

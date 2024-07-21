@@ -1,0 +1,18 @@
+func num main(){
+
+cook num print_these = {1, 3, 5, -7, 9} ;
+
+cook flag isIt = false;
+cook flag err1 = !true;
+ cook flag err2 = !isIt; 
+ cook flag err3 = (false || true);
+ cook num a=1;
+floop(cook num a1=0; a1 < len(print_these); a1++){
+    if (isIt == err1){
+    echo(print_these[a]);
+    }
+    if(a1%2 == (1)){
+        isIt = true;
+    }
+}
+}

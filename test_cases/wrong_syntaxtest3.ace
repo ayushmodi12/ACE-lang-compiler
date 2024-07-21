@@ -1,0 +1,15 @@
+func num  main() {
+    cook var1 = 5;
+    cook var2 = 5#3;
+    cook var3 = var1&var2;
+    echo(var3);
+    cook var4 = false;
+    if (var4 || (0==(5-5))){
+        echo("Tis true!");
+    }
+    floop (num i=0;i<=var2;i++) {
+        echo("The current value of i is: " , i);
+    }               
+    cook lst = [];
+    lst = [1, "abcd" , 3 , 4 , 5];
+}            
