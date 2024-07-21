@@ -1,0 +1,31 @@
+func char fux(char t1, char t2, char t3){
+    cook char th;
+    if (t=='c'){
+        th = 'g';
+    } else {
+        th = 'o';
+    }
+    return th;
+}
+
+func num main(){
+cook char c1;
+c1='y';
+cook char c='r';
+cook str s1;
+s1="abc";
+cook str s2="def";
+cook num a6 = -5;
+
+cook num u = 2;
+
+cook num arr2={ 2 , -3 , 4 , 5};
+cook num num2=5;
+cook char st = fux(c1, c, 't');
+cook num num1 = -7;
+cook num xor = num2^num1;
+echo("Hello");
+cook num tt = arr2[0];
+cook num t2 = arr2[num2];
+
+}
