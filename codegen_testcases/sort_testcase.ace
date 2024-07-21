@@ -1,0 +1,18 @@
+
+func void sort (num baseptr{}, num length){
+    floop(cook num i1=0;i1<length;i1++){
+        floop(cook num j1=0;j1<length;j1++){
+            
+            if(baseptr[i1]<baseptr[j1]){
+                baseptr[i1]=baseptr[i1]+baseptr[j1];
+                baseptr[j1]=baseptr[i1]-baseptr[j1];
+                baseptr[i1]=baseptr[i1]-baseptr[j1];
+            }
+        }
+    }
+}
+
+func num main(){
+    cook num a1=17;
+    }
+
